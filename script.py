@@ -34,7 +34,7 @@ def perform_click(num_clicks, url):
           
 # Print banner
 os.system('clear')
-print("\033[91m\033[1m") # Set color to lolcat rainbow
+print("\033[91m\033[1m") # Set color 
 print("""
                             ..-,
                      ,-"         "-.
@@ -88,14 +88,14 @@ while True:
         for thread in threads:
             thread.join()
 
-        print("\033[92m\033[1m") # Set color to lolcat rainbow
+        print("\033[92m\033[1m") # Set color
         print("Finished clicking", num_clicks, "times on", len(urls), "URLs.")
         break
     elif choice == 'no':
-        print("\033[93m\033[1m") # Set color to lolcat rainbow
+        print("\033[93m\033[1m") # Set color 
         print("Thank you, goodbye.")
         break
     else:
-        print("\033[91m\033[1m") # Set color to lolcat rainbow
+        print("\033[91m\033[1m") # Set color 
         print("Invalid choice. Please enter 'yes' or 'no'.")
         
